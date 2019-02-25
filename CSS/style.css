@@ -1,0 +1,44 @@
+/*Important stuff, don't change it!*/
+* {
+    margin:0px;
+    padding:0px;
+}
+#main-restaurant-name {
+    font-family: 'Laila', serif;
+    font-size: 100px;
+}
+
+h1 {
+    font-family: 'Playfair Display', serif;
+}
+
+p {
+    font-family: 'Montserrat', sans-serif;
+}
+
+/*End of the important stuff*/
+
+#landing-page-full-page-image-container{
+    background-image: url("../assets/photos/backg.jpg");
+    height: 100vh;
+    background-size: cover;
+    overflow: hidden;
+    background-repeat: no-repeat;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    flex-direction:column;
+    align-items:center;
+}
+
+#main-restaurant-name-wrapper {
+    bottom:40%;
+}
+
+
+.btn {
+    border: 1px solid #fff;
+    padding: 10px 30px;
+    color: grey;
+    text-decoration: none;
+}
