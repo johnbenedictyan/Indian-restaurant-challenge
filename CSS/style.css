@@ -101,6 +101,8 @@ nav a:hover{
 
 #brand-name{
     align-self:flex-start;
+    font-family: "Laila";
+    text-transform: uppercase;
 }
 
 nav ul {
